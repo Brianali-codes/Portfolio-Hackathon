@@ -428,9 +428,14 @@ html {
 
 .abt-btn-redirector:hover {
     cursor: pointer;
-    color: #ff0000;
+    color: #ff6d4d;
+    text-shadow: 1px 1px black;
 }
-
+.abt-btn-redirector:active {
+    cursor: pointer;
+    color: #941b00;
+    text-shadow: 1px 1px black;
+}
 .abt-redirector {
     display: flex;
     flex-direction: column;
