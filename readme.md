@@ -97,28 +97,34 @@ White base: Clean, professional Orange accents (#ff6d4d): Energetic, creative Bl
 Montserrat: Modern, clean, readable Cookie font: For quotes and personal touches Courier New: Terminal sections for authenticity
 ## Contact me.
 
-🤝 Connect With Me
-
-🎮 Discord: @brianali0834 📧 Email: brianali427@gmail.com 📸 Instagram: @luh_bryxe 💼 Looking for opportunities!
-
+```css
+/* My design mantra */
+.aesthetic-over-everything {
+    rule: "Once added a 20MB library to move an icon 2px. No regrets.";
+    priority: "Make the web less ugly, one div at a time";
+}
 
 /* Dev Stats */
 .built-with {
     love: "❤️";
     fuel: "☕";
     dedication: "Way too many late nights debugging CSS animations";
-    linesOfCode: "~1,500+ (because vanilla CSS is verbose but worth it!)";
+    lines-of-code: "~1,500+ (because vanilla CSS is verbose but worth it!)";
     commits: "Every single day (almost)";
-    bugsFixed: "Not much, it's CSS and HTML 😂";
+    bugs-fixed: "Not much, it's CSS and HTML 😂";
+    fun-factor: "Over 9000! 🚀";
 }
-
-
-will expand if js is allowed in the future for 3d experimentation!
-
+```
 
 ## Licence
 
 This project is free to use and contribute just hit me up, or not, just fork it lol.
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
+🤝 Connect With Me
+
+🎮 Discord: @brianali0834 📧 Email: brianali427@gmail.com 📸 Instagram: @luh_bryxe 💼 Looking for opportunities!
+
+will expand if js is allowed in the future for 3d experimentation!
 
