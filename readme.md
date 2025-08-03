@@ -22,7 +22,7 @@ Alternatively visit :
 
 - 🎪 Interactive Elements
 
-    Role Rotator: Watch "Frontend" → "Backend" → "Web" dance across the screen
+    Role Rotator: Watch "Frontend" → "Backend" → "Fullstack" dance across the screen / purely html and css.
     Floating Dot Animation: Those achievement cards have dots that move around the border (yes, I spent way too much time on this)
     Spinning Tech Icons: 60-second rotation cycle because why not?
     Terminal Simulation: Complete with realistic command prompts and witty responses
