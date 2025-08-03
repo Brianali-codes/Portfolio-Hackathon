@@ -50,11 +50,10 @@ Alternatively visit :
     Tech stack grid with spinning icons
     Terminal interface with actual commands you'd run:
 
-     ```bash
-        whoami
-   Brian Ali — builder of things, breaker of limits (and sometimes code).
-
-
+   ```bash
+    whoami
+    Brian Ali — builder of things, breaker of limits (and sometimes code).
+   ```
 
 
 - 💼 Work Experience
