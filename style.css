@@ -778,7 +778,7 @@ html {
 }
 
 .projects-list {
-    height: 100vh;
+    height: fit-content;
     background-color: #ffffff;
     font-family: 'Montserrat', sans-serif;
     padding: 50px 40px;
@@ -809,12 +809,44 @@ html {
 .project-item:hover {
     cursor: pointer;
     transition: 1s;
+    height: fit-content;
 }
 
 .project-item:hover .project-name {
     color: #ff6d4d;
     cursor: pointer;
     transition: 0.5s;
+}
+.project-preview-slide {
+    width: 100%;
+    max-height: 0;
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    transition: max-height 0.6s ease, opacity 0.3s ease;
+    opacity: 0;
+}
+.project-details-end{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+    width: 100%;
+    padding: 20px;
+}
+.project-preview-slide img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Show the image on hover */
+.project-item:hover .project-preview-slide {
+    max-height: 400px; /* Adjust depending on image height */
+    opacity: 1;
 }
 
 .project-index {
@@ -1217,6 +1249,19 @@ html {
     .contact-buttons a button{
         font-size: 12px;
         text-align: center;
+    }
+    .project-preview-slide {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        overflow: auto;
+        transition: max-height 0.6s ease, opacity 0.3s ease;
+        opacity: 0;
+    }
+    .project-details-end{
+        padding: 0px;
+        height: fit-content;
     }
     
   }
