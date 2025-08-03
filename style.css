@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
-/*importing the montserrat font from google fonts*/
+/*this is gonna be importing the montserrat font from google fonts*/
 
 .main {
     background-color: #ffffff;
@@ -1078,11 +1078,11 @@ html {
     line-height: 1.6;
     color: #333;
 }
- /* Mobile styles */
+ /* Mobile repsonsiveness is gonna start styling here console.log('I miss javascript and tailwind') */
  @media (max-width: 720px) {
     .navbar-section {
       flex-direction: row-reverse;
-      align-items:center;
+      align-items:start;
       position: relative;
     }
     .logo-container {
@@ -1093,9 +1093,11 @@ html {
       }
     .hamburger {
       display: flex;
-      margin-top: 10px;
-      margin-bottom: 10px;
+      
     }
+    .menu-toggle:checked ~ .github-section {
+        display: none;
+      }    
   
     .navbar {
       display: none;
@@ -1113,10 +1115,15 @@ html {
     #github-link{
         width: 30px;
     }
-  
-    /* Show menu when checkbox is checked */
+
+    /*I miss js*/
+
+
     .menu-toggle:checked + .hamburger + .navbar {
       display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
     }
     .hero-section{
         flex-direction: column-reverse;
@@ -1164,19 +1171,19 @@ html {
         gap: 20px;
     }
     #stat-img {
-        width: 100%;       /* or a specific value like 300px */
-        max-width: 400px;  /* control the max size */
-        height: auto;      /* maintain aspect ratio */
-        display: block;    /* optional, removes inline gap */
+        width: 100%;      
+        max-width: 400px;  
+        height: auto;      
+        display: block;   
       }      
     .grid-container{
         gap: 15px;
     }
     #trophy-img{
-        width: 100%;       /* or a specific value like 300px */
-        max-width: 400px;  /* control the max size */
-        height: auto;      /* maintain aspect ratio */
-        display: block;    /* optional, removes inline gap */
+        width: 100%;       
+        max-width: 400px; 
+        height: auto;      
+        display: block;    
       
     }
     .project-section {
