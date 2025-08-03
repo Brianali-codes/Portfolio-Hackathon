@@ -102,7 +102,16 @@ Montserrat: Modern, clean, readable Cookie font: For quotes and personal touches
 🎮 Discord: @brianali0834 📧 Email: brianali427@gmail.com 📸 Instagram: @luh_bryxe 💼 Looking for opportunities!
 
 
-<pre> ```txt Built with ❤️, ☕, and way too many late nights debugging CSS animations. Total Lines of Code: ~1,500+ (because vanilla CSS is verbose but worth it!) Commits: Every single day (almost) Bugs Fixed: More than I'd like to admit Fun Factor: Over 9000! 🚀 ``` </pre>
+/* Dev Stats */
+.built-with {
+    love: "❤️";
+    fuel: "☕";
+    dedication: "Way too many late nights debugging CSS animations";
+    linesOfCode: "~1,500+ (because vanilla CSS is verbose but worth it!)";
+    commits: "Every single day (almost)";
+    bugsFixed: "Not much, it's CSS and HTML 😂";
+}
+
 
 will expand if js is allowed in the future for 3d experimentation!
 
