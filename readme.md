@@ -15,7 +15,7 @@ For the live site visit :
 [This link](https://brianali-codes.github.io/Portfolio-Hackathon/)
 
 Alternatively visit : 
-[This link](https://brianali-codes.github.io/Portfolio-Hackathon/)
+[This link](https://alibrian.netlify.app/)
 
 ## 🚀 Portfolio Features.
 
