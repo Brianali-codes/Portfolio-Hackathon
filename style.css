@@ -873,6 +873,7 @@ html {
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
+    display: none;
 }
 
 .project-button:hover {
@@ -1232,6 +1233,9 @@ html {
       flex-direction: row-reverse;
       align-items:start;
       position: relative;
+    }
+    .project-button {
+       display: flex;
     }
     .education {
         display: grid;
