@@ -1117,6 +1117,9 @@ html {
       align-items:start;
       position: relative;
     }
+    .about-me-terminal {
+        height: fit-content;
+    }
     .logo-container {
         display: flex;
         justify-content: space-between;
