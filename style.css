@@ -12,7 +12,7 @@ html {
 }
 
 .navbar-section {
-    background-color: white;
+    background-color: transparent;
     border-radius: 30px;
     border: 1px solid black;
     display: flex;
@@ -73,7 +73,7 @@ html {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 90vh;
+    height: fit-content;
     padding: 1px;
     gap: 20px;
 }
@@ -194,6 +194,7 @@ html {
     align-items: center;
     padding: 5px;
     gap: 10px;
+    background-color: transparent;
 }
 
 .socials-section2 a {
@@ -218,7 +219,7 @@ html {
 }
 
 .hero-text {
-    font-size: 120px;
+    font-size: 110px;
     font-weight: bold;
     font-family: montserrat, sans-serif;
     margin: 0;
@@ -301,8 +302,8 @@ html {
 }
 
 .outer {
-    width: 300px;
-    height: 200px;
+    width: 200px;
+    height: 150px;
     border-radius: 10px;
     padding: 1px;
     background: radial-gradient(circle 230px at 0% 0%, #ffffff, #0c0d0d);
@@ -415,8 +416,7 @@ html {
 }
 
 .pf-img {
-    width: 550px;
-    height: 550px;
+    width: 80%;
 }
 
 .abt-btn-redirector {
@@ -631,18 +631,6 @@ html {
     background-color: #333;
     transform: translateX(-50%);
 }
-
-.ball {
-    position: absolute;
-    top: 150px;
-    left: 50%;
-    width: 40px;
-    height: 40px;
-    background-color: #333;
-    border-radius: 50%;
-    transform: translateX(-50%);
-}
-
 @keyframes swing {
     0% {
         transform: rotate(-25deg);
@@ -901,8 +889,8 @@ html {
 }
 
 .talk-section {
-    height: 20vh;
-    background: #fff;
+    height: fit-content;
+    background: transparent;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -925,7 +913,7 @@ html {
 
 .cut-section {
     background: #ff6d4d;
-    height: 50vh;
+    height: fit-content;
     margin-top: -10vh;
     z-index: 2;
     position: relative;
@@ -985,12 +973,12 @@ html {
 
 .terminal-window {
     max-width: 700px;
+    height: fit-content;
     background: #1e1e1e;
-    border-radius: 8px;
+    border-radius: 12px;
     font-family: 'Courier New', monospace;
     color: #d4d4d4;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
-    overflow: hidden;
     font-size: 16px;
 }
 
@@ -1001,6 +989,8 @@ html {
     padding: 8px 12px;
     border-bottom: 1px solid #000;
     position: relative;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
 }
 
 .btn-red,
@@ -1043,7 +1033,7 @@ html {
 }
 
 .about-me-terminal {
-    height: 100vh;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1110,167 +1100,13 @@ html {
     line-height: 1.6;
     color: #333;
 }
- /* Mobile repsonsiveness is gonna start styling here console.log('I miss javascript and tailwind') */
- @media (max-width: 720px) {
-    .navbar-section {
-      flex-direction: row-reverse;
-      align-items:start;
-      position: relative;
-    }
-    .about-me-terminal {
-        height: fit-content;
-    }
-    .logo-container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-      }
-    .hamburger {
-      display: flex;
-      
-    }
-    .menu-toggle:checked ~ .github-section {
-        display: none;
-      }    
-  
-    .navbar {
-      display: none;
-      flex-direction: column;
-      align-items: flex-start;
-      width: 100%;
-      gap: 10px;
-    }
-  
-    .github-section {
-      width: 100%;
-      display: flex;
-      justify-content: flex-start;
-    }
-    #github-link{
-        width: 30px;
-    }
+.education{
+    display: flex;
+    flex-direction: row;
+     justify-content: center;
+ }  
 
-    /*I miss js*/
-
-
-    .menu-toggle:checked + .hamburger + .navbar {
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      align-items: flex-start;
-    }
-    .hero-section{
-        flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
-        height: fit-content;
-    }
-    .logo{
-        display: none;
-    }
-    .text-section{
-        width: 100%;
-        text-align: center;
-    }
-    .pic-section{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .pf-img{
-        width: 100%;
-        height: auto;
-    }
-    .hero-text {
-        font-size: 50px;
-    }
-    .info{
-        font-size: 14px;
-        text-align: center;
-    }
-    .info2{
-        font-size: 14px;
-     
-    }
-    .outer {
-        width: 100%;
-        height: 100%;
-    }
-    .abt-sub-section {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: start;
-        gap: 20px;
-    }
-    #stat-img {
-        width: 100%;      
-        max-width: 400px;  
-        height: auto;      
-        display: block;   
-      }      
-    .grid-container{
-        gap: 15px;
-    }
-    #trophy-img{
-        width: 100%;       
-        max-width: 400px; 
-        height: auto;      
-        display: block;    
-      
-    }
-    .project-section {
-        width: 100%;
-        height: fit-content;
-    }
-    .projects-list {
-        height: fit-content;
-    }
-    .talk-text{
-        font-size: 50px;
-    }
-    .cut-section{
-        height: 50vh;
-        margin-top: -8vh; 
-    }
-    .quote {
-        font-family: "Cookie", cursive;
-        font-size: 25px;
-        padding: 20px;
-        text-align: center;
-    }
-    .contact-buttons{
-        display: flex;
-        flex-direction: row;
-    }
-    .contact-buttons{
-        display: flex;
-        flex-direction: row;
-    }
-    .contact-buttons a button{
-        font-size: 12px;
-        text-align: center;
-    }
-    .project-preview-slide {
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        overflow: auto;
-        transition: max-height 0.6s ease, opacity 0.3s ease;
-        opacity: 0;
-    }
-    .project-details-end{
-        padding: 0px;
-        height: fit-content;
-    }
-    
-  }
-
-/*Trust me coding without tailwind or react makes you have this many lines of code lmao*/
-.contact-wrapper {
+ .contact-wrapper {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -1350,4 +1186,221 @@ html {
     background: #000000;
     color: #ffffff;
   }
+
+.more-skills {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    border: none;
+    flex-wrap: wrap;
+  }
   
+  .non-coding-skills,
+  .personal-skills {
+    flex: 1;
+    min-width: 250px;
+    padding: 10px 20px;
+  }
+  
+  .non-coding-skills {
+    border-right: 2px solid #000000;
+  }
+  
+  h3 {
+    color: #ff6600;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style:none;
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+
+ /* Mobile repsonsiveness is gonna start styling here console.log('I miss javascript and tailwind') */
+ @media (max-width: 720px) {
+    .navbar-section {
+      flex-direction: row-reverse;
+      align-items:start;
+      position: relative;
+    }
+    .education {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        width: 100%;
+        place-items: center; 
+    }
+    .education img{
+        width: 60%;
+        height: auto;
+        max-width: 100px; 
+        border-radius: 10px;
+    }
+      
+    .about-me-terminal {
+        height: fit-content;
+    }
+    .logo-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+      }
+    .hamburger {
+      display: flex;
+      
+    }
+    .menu-toggle:checked ~ .github-section {
+        display: none;
+      }    
+  
+    .navbar {
+      display: none;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+      gap: 10px;
+    }
+  
+    .github-section {
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+    }
+    #github-link{
+        width: 30px;
+    }
+
+    /*I miss js*/
+
+
+    .menu-toggle:checked + .hamburger + .navbar {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+    .hero-section{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        height: fit-content;
+    }
+    .logo{
+        display: none;
+    }
+    .text-section{
+        width: 100%;
+        text-align: center;
+    }
+    .pic-section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .pf-img{
+        width: 80%;
+        height: auto;
+    }
+    .hero-text {
+        font-size: 50px;
+    }
+    .info{
+        font-size: 14px;
+        text-align: center;
+    }
+    .info2{
+        font-size: 14px;
+     
+    }
+    .outer {
+        width: 100%;
+        height: 100%;
+    }
+    .abt-sub-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 20px;
+    }
+    #stat-img {
+        width: 100%;      
+        max-width: 400px;  
+        height: auto;      
+        display: block;   
+      }      
+    .grid-container{
+        gap: 15px;
+    }
+    #trophy-img{
+        width: 100%;       
+        max-width: 400px; 
+        height: auto;      
+        display: block;    
+      
+    }
+    .project-section {
+        width: 100%;
+        height: fit-content;
+    }
+    .projects-list {
+        height: fit-content;
+    }
+    .talk-text{
+        font-size: 50px;
+    }
+    .cut-section{
+        height: fit-content;
+        margin-top: -8vh; 
+    }
+    .quote {
+        font-family: "Cookie", cursive;
+        font-size: 25px;
+        padding: 20px;
+        text-align: center;
+    }
+    .contact-buttons{
+        display: flex;
+        flex-direction: row;
+    }
+    .contact-buttons{
+        display: flex;
+        flex-direction: row;
+    }
+    .contact-buttons a button{
+        font-size: 12px;
+        text-align: center;
+    }
+    .project-preview-slide {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        overflow: auto;
+        transition: max-height 0.6s ease, opacity 0.3s ease;
+        opacity: 0;
+    }
+    .project-details-end{
+        padding: 0px;
+        height: fit-content;
+    }
+    .non-coding-skills {
+        border-bottom: 2px solid #000000;
+        border-right: transparent;
+    }
+    
+  }
+
+/*Trust me coding without tailwind or react makes you have this many lines of code lmao*/
