@@ -95,7 +95,7 @@ White base: Clean, professional Orange accents (#ff6d4d): Energetic, creative Bl
 ## Typography
 
 Montserrat: Modern, clean, readable Cookie font: For quotes and personal touches Courier New: Terminal sections for authenticity
-## Contact me.
+## Experience.
 
 ```css
 /* My design mantra */
@@ -124,7 +124,9 @@ This project is free to use and contribute just hit me up, or not, just fork it 
 
 🤝 Connect With Me
 
-🎮 Discord: @brianali0834 📧 Email: brianali427@gmail.com 📸 Instagram: @luh_bryxe 💼 Looking for opportunities!
+🎮 Discord: @brianali0834 📧 
+Email: brianali427@gmail.com 
+📸 Instagram: @luh_bryxe 
+💼 Looking for opportunities!
 
-will expand if js is allowed in the future for 3d experimentation!
 
