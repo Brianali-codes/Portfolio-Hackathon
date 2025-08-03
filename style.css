@@ -839,13 +839,13 @@ html {
     max-width: 500px;
     height: auto;
     margin-top: 15px;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 /* Show the image on hover */
 .project-item:hover .project-preview-slide {
-    max-height: 400px; /* Adjust depending on image height */
+    max-height: 550px;
     opacity: 1;
 }
 
