@@ -106,13 +106,11 @@ Montserrat: Modern, clean, readable Cookie font: For quotes and personal touches
 
 /* Dev Stats */
 .built-with {
-    love: "❤️";
-    fuel: "☕";
+    love: "❤️ and Cofee";
     dedication: "Way too many late nights debugging CSS animations";
     lines-of-code: "~1,500+ (because vanilla CSS is verbose but worth it!)";
     commits: "Every single day (almost)";
     bugs-fixed: "Not much, it's CSS and HTML 😂";
-    fun-factor: "Over 9000! 🚀";
 }
 ```
 
@@ -124,9 +122,10 @@ This project is free to use and contribute just hit me up, or not, just fork it 
 
 🤝 Connect With Me
 
-🎮 Discord: @brianali0834 📧 
-Email: brianali427@gmail.com 
-📸 Instagram: @luh_bryxe 
-💼 Looking for opportunities!
+- 🎮 Discord: @brianali0834 📧 
+- Email: brianali427@gmail.com 
+- 📸 Instagram: @luh_bryxe 
+- 💼 Looking for opportunities!
 
 
+This was a very fun project to build and it made me realize i could do some things without actually needing the power of javascript or frameworks, overal this also made me recall the core fundamentals of code and pushed me to my limits making me flexible.
