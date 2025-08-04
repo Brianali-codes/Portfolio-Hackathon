@@ -1315,6 +1315,14 @@ html {
       align-items:start;
       position: relative;
     }
+    .about-me-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 60px;
+        font-family: 'Montserrat', sans-serif;
+    }    
     #see-more{
         display: none;
     }
