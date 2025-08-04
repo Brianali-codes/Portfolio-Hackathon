@@ -1368,11 +1368,12 @@ html {
         height: fit-content;
     }
     .talk-text{
-        font-size: 50px;
+        font-size: 45px;
     }
     .cut-section{
         height: fit-content;
-        margin-top: -8vh; 
+        width: 100%;
+        margin-top: -7vh; 
     }
     .quote {
         font-family: "Cookie", cursive;
