@@ -497,6 +497,7 @@ html {
     gap: 30px;
     padding: 30px 0;
     border-top: 1px solid #ccc;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .experience-index {
@@ -560,7 +561,63 @@ html {
     background-color: transparent;
     backdrop-filter: blur(5px);
 }
-
+.alt-terminal {
+    background-color: #1e1e1e;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+    margin: 20px auto;
+  }
+  
+  .alt-terminal .terminal-header {
+    background-color: #2d2d2d;
+    padding: 6px 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+  }
+  
+  .alt-terminal .btn {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .alt-terminal .btn.red {
+    background-color: #ff5f56;
+  }
+  
+  .alt-terminal .btn.yellow {
+    background-color: #ffbd2e;
+  }
+  
+  .alt-terminal .btn.green {
+    background-color: #27c93f;
+  }
+  
+  .alt-terminal .terminal-title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #aaa;
+    font-size: 12px;
+  }
+  
+  .alt-terminal .terminal-body {
+    padding: 8px 12px;
+    color: #00ff00; /* Green text */
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1;
+  }
+  
 .icon {
     width: 60px;
     height: 60px;
@@ -1192,7 +1249,21 @@ html {
     background: #000000;
     color: #ffffff;
   }
-
+  .skills-row {
+    display: flex;
+    flex-wrap: wrap; /* or overflow-x: auto for scrollable row */
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.skills-section{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .more-skills {
     display: flex;
     justify-content: space-between;
