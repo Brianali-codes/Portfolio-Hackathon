@@ -17,17 +17,17 @@ For the live site visit :
 Alternatively visit : 
 [This link](https://alibrian.netlify.app/)
 
-## 🚀 Portfolio Features.
+## Portfolio Features.
 
 
-- 🎪 Interactive Elements
+- Interactive Elements
 
     Role Rotator: Watch "Frontend" → "Backend" → "Fullstack" dance across the screen / purely html and css.
     Floating Dot Animation: Those achievement cards have dots that move around the border (yes, I spent way too much time on this)
     Spinning Tech Icons: 60-second rotation cycle because why not?
     Terminal Simulation: Complete with realistic command prompts and witty responses
 
-- 🎨 Design Philosophy
+- Design Philosophy
 
     ```css
     /* My design mantra */
@@ -55,18 +55,21 @@ Alternatively visit :
     Brian Ali — builder of things, breaker of limits (and sometimes code).
    ```
 
+- Skills section
 
-- 💼 Work Experience
+    add skills such as languages and related proficiencies.
+
+- Work Experience
 
     Added a cheeky "WAITING FOR YOUR RESPONSE" entry for potential employers
     Included skills like "Mastered the art of refreshing my inbox every 3.5 seconds"
 
-- ⏰ Dev Timeline
+- Dev Timeline
 
     Chronicles my journey from "BR tag solves everything" to actual developer
     Honest confessions like debugging in dreams and console.log being my therapist
 
-- 🚧 Projects Showcase
+- Projects Showcase
 
     6 real projects with live links theres more on my github of course,
     Hover effects that make project names glow orange
@@ -85,11 +88,11 @@ right click on your terminal to lauunch the site locally.
 
 - Fast loading (optimized images and minimal dependencies) by adding webp format instead of jpgs, cause trust me those take eons to load lol
 
-- 📱 Fully responsive (works on your grandma's tablet)/ actually working on it. ♿ Accessible (semantic HTML and proper contrast) 
+- Fully responsive (works on your grandma's tablet)/ actually working on it. ♿ Accessible (semantic HTML and proper contrast) 
 
-- 🌙 Smooth scrolling navigation 🔝 Back-to-top button that scales on hover 💫 Micro-interactions throughout
+- Smooth scrolling navigation 🔝 Back-to-top button that scales on hover 💫 Micro-interactions throughout
 
-🤔 The "Why" Behind Design Choices Color Palette
+The "Why" Behind Design Choices Color Palette
 
 White base: Clean, professional Orange accents (#ff6d4d): Energetic, creative Black text: Maximum readability Gray variations,But also just cause i like orange.
 
