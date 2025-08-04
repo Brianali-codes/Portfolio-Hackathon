@@ -595,7 +595,12 @@ html {
   .alt-terminal .btn.yellow {
     background-color: #ffbd2e;
   }
-  
+  .end-note{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .alt-terminal .btn.green {
     background-color: #27c93f;
   }
