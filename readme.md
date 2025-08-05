@@ -108,7 +108,7 @@ Montserrat: Modern, clean, readable Cookie font: For quotes and personal touches
     dedication: "Way too many late nights debugging CSS animations";
     lines-of-code: "~1,500+ (because vanilla CSS is verbose but worth it!)";
     commits: "Every single day (almost)";
-    bugs-fixed: "Not much, it's CSS and HTML 😂";
+    bugs-fixed: "Not much,since it's just CSS and HTML 😂";
 }
 ```
 
