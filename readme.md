@@ -36,15 +36,15 @@ Alternatively visit :
         priority: "Make the web less ugly, one div at a time";
     }
 
-## 📱 Sections Breakdown
+## Sections Breakdown
 
-- 🏠 Hero Section
+- Hero Section
 
     Animated role rotation (took me 3 hours to get right)
     Achievement cards with that satisfying glow effect
     Social links that invert colors on hover (the little things matter!)
 
-- 👨‍💻 About Section
+- About Section
 
     GitHub stats integration (because numbers don't lie)
     Tech stack grid with spinning icons
@@ -88,9 +88,9 @@ right click on your terminal to lauunch the site locally.
 
 - Fast loading (optimized images and minimal dependencies) by adding webp format instead of jpgs, cause trust me those take eons to load lol
 
-- Fully responsive (works on your grandma's tablet)/ actually working on it. ♿ Accessible (semantic HTML and proper contrast) 
+- Fully responsive (works on your grandma's tablet)/ actually working on it. Accessible (semantic HTML and proper contrast) 
 
-- Smooth scrolling navigation 🔝 Back-to-top button that scales on hover 💫 Micro-interactions throughout
+- Smooth scrolling navigation  Back-to-top button that scales on hover and Micro-interactions throughout
 
 The "Why" Behind Design Choices Color Palette
 
@@ -110,7 +110,7 @@ Montserrat: Modern, clean, readable Cookie font: For quotes and personal touches
 
 /* Dev Stats */
 .built-with {
-    love: "❤️ and Cofee";
+    love: "Love and Cofee";
     dedication: "Way too many late nights debugging CSS animations";
     lines-of-code: "~1,500+ (because vanilla CSS is verbose but worth it!)";
     commits: "Every single day (almost)";
@@ -127,7 +127,7 @@ This project is free to use and contribute just hit me up, or not, just fork it 
 🤝 Connect With Me
 
 - 🎮 Discord: @brianali0834 📧 
-- Email: brianali427@gmail.com 
+- 📧 Email: brianali427@gmail.com 
 - 📸 Instagram: @luh_bryxe 
 - 💼 Looking for opportunities!
 
