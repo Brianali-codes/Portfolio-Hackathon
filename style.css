@@ -39,31 +39,32 @@ html {
 /* Base hamburger hidden on desktop */
 .menu-toggle {
     display: none;
-  }
-  
-  .hamburger {
+}
+
+.hamburger {
     display: none;
     flex-direction: column;
     gap: 5px;
     cursor: pointer;
     padding: 5px;
-  }
-  
-  .hamburger span {
+}
+
+.hamburger span {
     width: 25px;
     height: 3px;
     background-color: black;
     border-radius: 2px;
-  }
-  
- 
-  
+}
+
+
+
 
 .logo {
     width: 50px;
     height: 50px;
 }
-#github-link{
+
+#github-link {
     width: 30px;
 }
 
@@ -416,8 +417,24 @@ html {
 }
 
 .pf-img {
-    width: 80%;
+    animation: float 3s ease-in-out infinite;
+    display: inline-block;
 }
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
 
 .abt-btn-redirector {
     font-family: "Cookie", cursive;
@@ -431,11 +448,13 @@ html {
     color: #ff6d4d;
     text-shadow: 1px 1px black;
 }
+
 .abt-btn-redirector:active {
     cursor: pointer;
     color: #941b00;
     text-shadow: 1px 1px black;
 }
+
 .abt-redirector {
     display: flex;
     flex-direction: column;
@@ -561,6 +580,7 @@ html {
     background-color: transparent;
     backdrop-filter: blur(5px);
 }
+
 .alt-terminal {
     background-color: #1e1e1e;
     font-family: 'Courier New', Courier, monospace;
@@ -570,59 +590,62 @@ html {
     overflow: hidden;
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
     margin: 20px auto;
-  }
-  
-  .alt-terminal .terminal-header {
+}
+
+.alt-terminal .terminal-header {
     background-color: #2d2d2d;
     padding: 6px 12px;
     display: flex;
     align-items: center;
     gap: 8px;
     position: relative;
-  }
-  
-  .alt-terminal .btn {
+}
+
+.alt-terminal .btn {
     width: 10px;
     height: 10px;
     border-radius: 50%;
     display: inline-block;
-  }
-  
-  .alt-terminal .btn.red {
+}
+
+.alt-terminal .btn.red {
     background-color: #ff5f56;
-  }
-  
-  .alt-terminal .btn.yellow {
+}
+
+.alt-terminal .btn.yellow {
     background-color: #ffbd2e;
-  }
-  .end-note{
+}
+
+.end-note {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-  .alt-terminal .btn.green {
+}
+
+.alt-terminal .btn.green {
     background-color: #27c93f;
-  }
-  
-  .alt-terminal .terminal-title {
+}
+
+.alt-terminal .terminal-title {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     color: #aaa;
     font-size: 12px;
-  }
-  
-  .alt-terminal .terminal-body {
+}
+
+.alt-terminal .terminal-body {
     padding: 8px 12px;
-    color: #00ff00; /* Green text */
+    color: #00ff00;
+    /* Green text */
     font-size: 14px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     line-height: 1;
-  }
-  
+}
+
 .icon {
     width: 60px;
     height: 60px;
@@ -698,6 +721,7 @@ html {
     background-color: #333;
     transform: translateX(-50%);
 }
+
 @keyframes swing {
     0% {
         transform: rotate(-25deg);
@@ -872,6 +896,7 @@ html {
     cursor: pointer;
     transition: 0.5s;
 }
+
 .project-preview-slide {
     width: 100%;
     max-height: 0;
@@ -881,7 +906,8 @@ html {
     transition: max-height 0.6s ease, opacity 0.3s ease;
     opacity: 0;
 }
-.project-details-end{
+
+.project-details-end {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -889,6 +915,7 @@ html {
     width: 100%;
     padding: 20px;
 }
+
 .project-preview-slide img {
     width: 100%;
     max-width: 500px;
@@ -1168,45 +1195,48 @@ html {
     line-height: 1.6;
     color: #333;
 }
-.education{
+
+.education {
     display: flex;
     flex-direction: row;
-     justify-content: center;
- }  
+    justify-content: center;
+}
 
- .contact-wrapper {
+.contact-wrapper {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     padding: 40px;
-  }
-  #contact-text{
+}
+
+#contact-text {
     font-size: 50px;
-  }
-  form {
+}
+
+form {
     width: 100%;
     display: flex;
     flex-direction: column;
     gap: 20px;
     font-family: 'Segoe UI', sans-serif;
-  }
-  
-  h2 {
+}
+
+h2 {
     font-size: 100px;
     font-weight: bold;
     margin: 0 0 30px 0;
     color: #111;
-  }
-  
-  label {
+}
+
+label {
     font-size: 14px;
     color: #555;
     margin-bottom: 5px;
-  }
-  
-  input[type="text"],
-  input[type="email"],
-  textarea {
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
     border: none;
     border-bottom: 2px solid #333;
     background: transparent;
@@ -1214,25 +1244,25 @@ html {
     font-size: 16px;
     outline: none;
     transition: border-color 0.3s;
-  }
-  
-  input:focus,
-  textarea:focus {
+}
+
+input:focus,
+textarea:focus {
     border-color: #0077ff;
-  }
-  
-  textarea {
+}
+
+textarea {
     resize: none;
     height: 100px;
-  }
-  
-  .form-note {
+}
+
+.form-note {
     font-size: 12px;
     color: #888;
     text-align: left;
-  }
-  
-  .contact-submit-btn {
+}
+
+.contact-submit-btn {
     background: #ff6d4d;
     color: #000000;
     padding: 12px;
@@ -1245,30 +1275,36 @@ html {
     border-radius: 4px;
     border-top-left-radius: 50px;
     border-bottom-right-radius: 50px;
-  }
-  #hire-btn{
+}
+
+#hire-btn {
     font-size: 50px;
     text-align: start;
-  }
-  .contact-submit-btn:hover {
+}
+
+.contact-submit-btn:hover {
     background: #000000;
     color: #ffffff;
-  }
-  .skills-row {
+}
+
+.skills-row {
     display: flex;
-    flex-wrap: wrap; /* or overflow-x: auto for scrollable row */
+    flex-wrap: wrap;
+    /* or overflow-x: auto for scrollable row */
     gap: 20px;
     padding: 20px;
     align-items: center;
     justify-content: center;
 }
-.skills-section{
-    
+
+.skills-section {
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 .more-skills {
     display: flex;
     justify-content: space-between;
@@ -1278,43 +1314,44 @@ html {
     border-radius: 12px;
     border: none;
     flex-wrap: wrap;
-  }
-  
-  .non-coding-skills,
-  .personal-skills {
+}
+
+.non-coding-skills,
+.personal-skills {
     flex: 1;
     min-width: 250px;
     padding: 10px 20px;
-  }
-  
-  .non-coding-skills {
+}
+
+.non-coding-skills {
     border-right: 2px solid #000000;
-  }
-  
-  h3 {
+}
+
+h3 {
     color: #ff6600;
     font-size: 18px;
     margin-bottom: 10px;
-  }
-  
-  ul {
-    list-style:none;
+}
+
+ul {
+    list-style: none;
     padding-left: 20px;
-  }
-  
-  li {
+}
+
+li {
     margin-bottom: 8px;
     color: #333;
-  }
-  
+}
 
- /* Mobile repsonsiveness is gonna start styling here console.log('I miss javascript and tailwind') */
- @media (max-width: 720px) {
+
+/* Mobile repsonsiveness is gonna start styling here console.log('I miss javascript and tailwind') */
+@media (max-width: 720px) {
     .navbar-section {
-      flex-direction: row-reverse;
-      align-items:start;
-      position: relative;
+        flex-direction: row-reverse;
+        align-items: start;
+        position: relative;
     }
+
     .about-me-container {
         display: flex;
         align-items: center;
@@ -1322,108 +1359,126 @@ html {
         gap: 10px;
         margin-top: 60px;
         font-family: 'Montserrat', sans-serif;
-    }    
-    #see-more{
+    }
+
+    #see-more {
         display: none;
     }
+
     .project-button {
-       display: flex;
+        display: flex;
     }
+
     .education {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         width: 100%;
-        place-items: center; 
+        place-items: center;
     }
-    .education img{
+
+    .education img {
         width: 60%;
         height: auto;
-        max-width: 100px; 
+        max-width: 100px;
         border-radius: 10px;
     }
-      
+
     .about-me-terminal {
         height: fit-content;
     }
+
     .logo-container {
         display: flex;
         justify-content: space-between;
         align-items: center;
         width: 100%;
-      }
+    }
+
     .hamburger {
-      display: flex;
-      
+        display: flex;
+
     }
-    .menu-toggle:checked ~ .github-section {
+
+    .menu-toggle:checked~.github-section {
         display: none;
-      }    
-  
+    }
+
     .navbar {
-      display: none;
-      flex-direction: column;
-      align-items: flex-start;
-      width: 100%;
-      gap: 10px;
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        gap: 10px;
     }
-  
+
     .github-section {
-      width: 100%;
-      display: flex;
-      justify-content: flex-start;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
     }
-    #github-link{
+
+    #github-link {
         width: 30px;
     }
 
     /*I miss js*/
 
 
-    .menu-toggle:checked + .hamburger + .navbar {
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      align-items: flex-start;
+    .menu-toggle:checked+.hamburger+.navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
     }
-    .hero-section{
+
+    .hero-section {
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
         height: fit-content;
     }
-    .logo{
+
+    .logo {
         display: none;
     }
-    .text-section{
+
+    .text-section {
         width: 100%;
         text-align: center;
     }
-    .pic-section{
+
+    .pic-section {
         width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .pf-img{
+
+    .pf-img {
         width: 75%;
         height: auto;
     }
+
     .hero-text {
         font-size: 50px;
     }
-    .info{
+
+    .info {
         font-size: 14px;
         text-align: center;
     }
-    .info2{
+
+    .info2 {
         font-size: 14px;
-     
+
     }
+
     .outer {
         width: 95%;
         height: 95%;
     }
+
     .abt-sub-section {
         display: flex;
         flex-direction: column;
@@ -1431,55 +1486,67 @@ html {
         align-items: start;
         gap: 20px;
     }
+
     #stat-img {
-        width: 100%;      
-        max-width: 400px;  
-        height: auto;      
-        display: block;   
-      }      
-    .grid-container{
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        display: block;
+    }
+
+    .grid-container {
         gap: 15px;
     }
-    #trophy-img{
-        width: 100%;       
-        max-width: 400px; 
-        height: auto;      
-        display: block;    
-      
+
+    #trophy-img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        display: block;
+
     }
+
     .project-section {
         width: 100%;
         height: fit-content;
     }
+
     .projects-list {
         height: fit-content;
     }
-    .talk-text{
+
+    .talk-text {
         font-size: 45px;
     }
-    .cut-section{
+
+    .cut-section {
         height: fit-content;
         width: 100%;
-        margin-top: -7vh; 
+        margin-top: -7vh;
     }
+
     .quote {
         font-family: "Cookie", cursive;
         font-size: 25px;
         padding: 20px;
         text-align: center;
     }
-    .contact-buttons{
+
+    .contact-buttons {
         display: flex;
         flex-direction: row;
     }
-    .contact-buttons{
+
+    .contact-buttons {
         display: flex;
         flex-direction: row;
     }
-    .contact-buttons a button{
+
+    .contact-buttons a button {
         font-size: 12px;
         text-align: center;
     }
+
     .project-preview-slide {
         width: 100%;
         height: auto;
@@ -1489,15 +1556,17 @@ html {
         transition: max-height 0.6s ease, opacity 0.3s ease;
         opacity: 0;
     }
-    .project-details-end{
+
+    .project-details-end {
         padding: 0px;
         height: fit-content;
     }
+
     .non-coding-skills {
         border-bottom: 2px solid #000000;
         border-right: transparent;
     }
-    
-  }
+
+}
 
 /*Trust me coding without tailwind or react makes you have this many lines of code lmao*/
