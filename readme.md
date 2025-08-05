@@ -1,7 +1,7 @@
 
 # Portfolio.
 
- Brian Ali's Hackathon Portfolio made with pain and suffering due to lack of framework usage.
+ Brian Ali's Hackathon Portfolio made with (vanilla html and css) with pain and suffering due to lack of framework usage.
 
  
 
